@@ -1,0 +1,52 @@
+datatypes
+	char
+	varchar
+	number
+	date 
+	Large object
+		charaacter large object
+		binary large object
+
+constraints
+	unique
+	not null
+	check 
+	primary key
+	foreign key
+	
+
+Overview of SQL
+	DDL -- Data Definition Language
+	DML -- Data Manipulation Language
+	TCL -- Transsion Control Language
+	DCL -- Data Control Language
+	DQL -- Data Query Language
+
+
+	1.DDL
+		Create
+		Rename
+		Alter
+		Truncate
+		Drop
+	2.DML
+		Insert
+		Update
+		Delete
+	3.TCL
+		Commit
+		Rollback
+		Savepoint
+	4.DQL
+		Select
+		Projection
+		Joins
+			Cartesian Join -- Table 1 record will merge with all the records of table-2
+			Inner Join -- table-1 record will merge with only matching record of table-2
+			Natural Join -- If it is cartesion join, it will act as a cartesian join or It is Inner join, it will act as a Inner join
+			Outer Join
+				Left Outer Join
+				Right Outer Join
+				Full Outer Join
+			Self Join -- It will join the table itself
+		
