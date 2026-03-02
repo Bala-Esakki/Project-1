@@ -21,6 +21,7 @@ public class Palindrome {
 		boolean res = true;
 		
 		if(n==0) {
+			
 			return res;
 		}else if(n>0){
 			if(n==prod) {
